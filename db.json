@@ -1,10 +1,4 @@
-{
- "query": {
-  "count": 5,
-  "created": "2011-08-06T05:31:29Z",
-  "lang": "en-US",
-  "results": {
-   "quote": [
+[
     {
      "symbol": "TNABY.PK",
      "Ask": null,
@@ -42,7 +36,7 @@
      "EBITDA": "2.153B",
      "ChangeFromYearLow": null,
      "PercentChangeFromYearLow": null,
-     "LastTradeRealtimeWithTime": "N/A - <b>7.90</b>",
+     "LastTradeRealtimeWithTime": "Aug 5 17:00:00 - <b>7.90</b>",
      "ChangePercentRealtime": "N/A - 0.00%",
      "ChangeFromYearHigh": null,
      "PercebtChangeFromYearHigh": null,
@@ -126,7 +120,7 @@
      "EBITDA": "0",
      "ChangeFromYearLow": "+1.27",
      "PercentChangeFromYearLow": "+51.63%",
-     "LastTradeRealtimeWithTime": "N/A - <b>3.73</b>",
+     "LastTradeRealtimeWithTime": "Aug 5 17:00:00 - <b>3.73</b>",
      "ChangePercentRealtime": "N/A - -1.06%",
      "ChangeFromYearHigh": "+0.01",
      "PercebtChangeFromYearHigh": "+0.27%",
@@ -210,7 +204,7 @@
      "EBITDA": "0",
      "ChangeFromYearLow": "+0.92",
      "PercentChangeFromYearLow": "+29.87%",
-     "LastTradeRealtimeWithTime": "N/A - <b>4.00</b>",
+     "LastTradeRealtimeWithTime": "Aug 5 17:00:00 - <b>4.00</b>",
      "ChangePercentRealtime": "N/A - -1.48%",
      "ChangeFromYearHigh": "+0.20",
      "PercebtChangeFromYearHigh": "+5.26%",
@@ -294,7 +288,7 @@
      "EBITDA": "0",
      "ChangeFromYearLow": null,
      "PercentChangeFromYearLow": null,
-     "LastTradeRealtimeWithTime": "N/A - <b>6.15</b>",
+     "LastTradeRealtimeWithTime": "Aug 5 17:00:00 - <b>6.15</b>",
      "ChangePercentRealtime": "N/A - 0.00%",
      "ChangeFromYearHigh": null,
      "PercebtChangeFromYearHigh": null,
@@ -378,7 +372,7 @@
      "EBITDA": "206.2M",
      "ChangeFromYearLow": null,
      "PercentChangeFromYearLow": null,
-     "LastTradeRealtimeWithTime": "N/A - <b>16.00</b>",
+     "LastTradeRealtimeWithTime": "Aug 5 17:00:00 - <b>16.00</b>",
      "ChangePercentRealtime": "N/A - -3.03%",
      "ChangeFromYearHigh": null,
      "PercebtChangeFromYearHigh": null,
@@ -425,7 +419,4 @@
      "DividendYield": null,
      "PercentChange": "-3.03%"
     }
-   ]
-  }
- }
-}
+]

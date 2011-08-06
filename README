@@ -1,1 +1,21 @@
 A dashboard of your favourite stocks updated real-time.
+
+So you need a few modules:
+npm install express ejs socket.io underscore.date
+
+The db.json file is basically what we would be getting from http://developer.yahoo.com/yql/console/?q=show%20tables&env=store://datatables.org/alltableswithkeys
+
+with the following YSQL statement to pull stock quotes for TNB, Nestle, Telekom Malaysia, Maybank & Genting
+select * from yahoo.finance.quotes where symbol in ("TNABY.PK","4715.KL","4863.KL","MLYBY.PK","NSLYF.PK")
+
+So we start off by parsing that db.json file however since markets are closed today, we are manually changing the stock prices by calling the following route:
+/stock/:name/:price/:change/:close/:open
+
+Sample:
+http://192.168.1.103:3000/stock/TELEKOM%20MALAYSIA/3.90/-0.10/4.06/4.00
+
+name: Stock Name
+price: Last Traded Realtime Price
+change: Change in stock price
+close: Closing price
+open: Opening price
